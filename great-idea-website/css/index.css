@@ -64,14 +64,43 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
 header nav{
 	display: inline-block;
 	background-color: white;
-	padding: 0px;
-	margin-left: 0px;
+	vertical-align: center
+	padding: 200px;
+	margin-left: 100px;
+
 
 }
 
-header img{
+header a{
 	display: inline-block;
+}
+
+
+h1{
+	display: block;
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+.img-2{
+		margin-left: 500px;
+	}
+
+	.icon{
+		border: 4px solid black;
+		background-color: white;
+		color: black;
+		padding: 5px 30px;
+		margin: 0px 600px 0px 10px ;
+	}
+
+
+.section{
+	display: inline-block;
+	margin-left: auto;
 }
